@@ -59,16 +59,14 @@ document.addEventListener("DOMContentLoaded", function () {
       `;
           result_box.innerHTML = countryHtml;
         } else {
-          result_box.innerHTML = `<p style="color: red;">Error</p>`;
+          result_box.innerHTML = `<p style="color: red; font-weight : 1000; font-size:20px;">Error : Invalid Input</p>`;
         }
       });
     })
     .catch(() => {
-      document.getElementById(
-        "result-box"
-      ).innerHTML = `
-      <p style="color: red;">Error</p>
-      <p style="font-size: small;">The country server returned a 400 error. Please try again later.</p>
-      `
+      document.getElementById("result-box").innerHTML = `
+      <p style="color: red; font-weight : 1000">Error</p>
+      <p style="font-size: small font-weight : 1000;">The country server returned a 400 error. Please try again later.</p>
+      `;
     })
 })
