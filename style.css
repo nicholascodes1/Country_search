@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray background for a clean look */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    min-height: 100vh;
+}
+
+h1 {
+    color: #007bff; /* Primary blue color */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* 2. Input and Button Styling */
+div:first-child {
+    display: flex;
+    gap: 10px; /* Space between input and button */
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+}
+
+#country-input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* 3. Result Display Styling */
+#result-box {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#result-box h2, #result-box h3 {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+#result-box p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+#result-box img {
+    max-width: 150px; /* Constrain flag size */
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-top: 15px;
+}
+
