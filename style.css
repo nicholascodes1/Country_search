@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9; /* Light gray background for a clean look */
-    color: #333; /* Dark gray text */
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: lightgoldenrodyellow; /* Light gray background for a clean look */
+    color: lightblue; /* Dark gray text */
     margin: 0;
     padding: 20px;
     display: flex;
@@ -11,14 +11,20 @@ body {
 }
 
 h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
     color: #007bff; /* Primary blue color */
     margin-bottom: 20px;
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
+    box-shadow: inset;
+    text-shadow: #333;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 /* 2. Input and Button Styling */
 div:first-child {
+    font-family: "Lucida Console", "Courier New", monospace;
     display: flex;
     gap: 10px; /* Space between input and button */
     margin-bottom: 30px;
@@ -28,6 +34,7 @@ div:first-child {
 }
 
 #country-input {
+    font-family: "Lucida Console", "Courier New", monospace;
     flex-grow: 1;
     padding: 10px 15px;
     border: 1px solid #ccc;
@@ -36,6 +43,7 @@ div:first-child {
 }
 
 #search-button {
+    font-family: "Lucida Console", "Courier New", monospace;
     padding: 10px 20px;
     background-color: #007bff; /* Primary blue button */
     color: white;
