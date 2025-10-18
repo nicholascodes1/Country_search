@@ -1,25 +1,25 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
-    background-color: lightgoldenrodyellow; /* Light gray background for a clean look */
-    color: lightblue; /* Dark gray text */
-    margin: 0;
+    background-color: white; /* Light gray background for a clean look */
+    color: black; /* Dark gray text */
+    margin: 100;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content horizontally */
     min-height: 100vh;
+
 }
 
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
     color: #007bff; /* Primary blue color */
     margin-bottom: 20px;
-    border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
-    box-shadow: inset;
+    box-shadow:  ;
     text-shadow: #333;
     font-style: italic;
-    text-decoration: underline;
+
 }
 
 /* 2. Input and Button Styling */
@@ -37,7 +37,7 @@ div:first-child {
     font-family: "Lucida Console", "Courier New", monospace;
     flex-grow: 1;
     padding: 10px 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #007bff;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -55,7 +55,7 @@ div:first-child {
 }
 
 #search-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: grey; /* Darker blue on hover */
 }
 
 /* 3. Result Display Styling */
@@ -65,7 +65,7 @@ div:first-child {
     background-color: white;
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 #result-box h2, #result-box h3 {
