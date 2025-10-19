@@ -19,7 +19,6 @@ function getCountryData() {
 
 function search_country(country_input) {
   const search_term = country_input.toLowerCase().trim();
-  let full_match = null;
   for (let i = 0; i < all_country_data.length; i++)
   {
     const current_country_name = all_country_data[i].name.common.toLowerCase()
