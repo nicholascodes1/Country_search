@@ -8,7 +8,8 @@ function getCountryData() {
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-      return response.json();
+      const data = response.json()
+      return data
     })
     .then((data) => {
       all_country_data = data;
