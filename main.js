@@ -2,7 +2,6 @@ let all_country_data = [];
 
 function getCountryData() {
   const ApiUrl = `https://restcountries.com/v3.1/all?fields=name,capital,population,flags`;
-
   return fetch(ApiUrl)
     .then((response) => {
       if (!response.ok) {
